@@ -33,6 +33,8 @@ Nie dokońca są te fuikcjonalnośći intuicyjne. Nie ma możliwości wyboru ile
 
 Nie rozumiem pól Łączy nas piłka i 90 minut.
 
+Brak podziału na kolumny.
+
 
 * Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 
@@ -48,20 +50,23 @@ W filtrach powinniśmy również mieć możliwość przefiltrowania wieku, pozyc
 
   * Brak identyfikacji ID dla poszczegółnych zawodników
   * Możliwość wpisania imienia i nazwiska składającego się ze znaków, cyfr, zbyt krótkich lub "hasłowych"
-  * Brak ram wiekowych zawodinów, czyli możliwość wpisania wieku na minusie, a także zbyt dużych (najstraszy piłkarz ma 55 lat, a najmłodszy 16 lat)
-  * Możliwość dodania nieisnietjących pozycjii zawodników
+  * Brak wartości brzegowych wiekowych zawodinów, czyli możliwość wpisania wieku na minusie, a także zbyt dużych (najstraszy piłkarz ma 55 lat, a najmłodszy 16 lat)
+  * Brak wartości brzegowych dla wagi i wzrostu jest możliwość wpisania wpisania wieku na minusie, oraz liter
+  * Możliwość dodania nieisnietjących pozycji zawodników
   * Możliwość dodania nieisnietjących klubów
   * Brak ograniczenia w ilości znaków w poszczegółnych kolumnach
-  * W filtrach w języku polskim mamy język angielski pomieszany z językiem poslskim.
-  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ zmienia się pozycja kolumn.
-  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ okno ma możliwość rozciąga się
-  * Możliwość dodawania tych samych zawodników.
+  * W filtrach w języku polskim mamy język angielski pomieszany z językiem poslskim
+  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ zmienia się pozycja kolumn
+  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ okno ma możliwość rozciąga się w przegladarce mozilla w chromie już nie
+  * Możliwość dodawania tych samych zawodników
   * Przy eksporcie do .csv wysakują błedy w dwóch ostanich kolumnach
   * Przy eksporcie do .csv w kolumnie wiek wpisane są daty, a w aplikacji tylko wiek
   * Nie można zaznaczyć więcej zawodników niż znajduje się na jednej stronie
   * Przy wyborze drukowania nie zawsze zawsze pojawiają się linie odzielające użytkowników
   * Możliwość wpisania w pole profil facebook linku nie z tej apliacji
-  * Przy dodawaniu nowego gracza pmioimo, iż z * (czyli wymagane jest zanaczone imię,nazwisko, data urodzenia oraz główna pozycja) to przy zapisywaniu na czerwono pojawia się tylko imię i nzowu w języku angielskim Required w polskiej wersji Podświetlone tylko imię, a powinno rónież być nazwisko i błęde wyświetlanie komunikatów. Mamy kod 400 (POST) dodania 
+  * Przy dodawaniu nowego gracza pomioimo, iż z * (czyli wymagane jest zanaczone imię,nazwisko, data urodzenia oraz główna pozycja) to przy zapisywaniu na czerwono pojawia się tylko imię i nzowu w języku angielskim Required w polskiej wersji Podświetlone tylko imię, a powinno rónież być nazwisko i błęde wyświetlanie komunikatów. Mamy kod 400 (POST) dodania 
   * Kolejnym błędem tutaj jest to, że  wyskakuje nam w http, że musimy dodać email ale nie podświtla się to na czerwono.
   * Bug kod błędu 404 (strona łączy się z serwerem, ale nie może znaleść właściwego pliku odpowiadającego za działanie danej podstrony) https://scouts-test.futbolkolektyw.pl/pl/favicon.ico
   * Bug - Params `start` and `limit` are deprecated. Use `_start` and `_limit`, który nie wiem co oznacza dotyczy rozszerzenia js i znajduje się w zakładce players
+  * Brak możliwości dodawania graczy z innych krajów
+  * Brak zabezpieczeń przed zmianami - zmian może dokonać każdy użytkownik, nie tylko administraor lub zawodnik
