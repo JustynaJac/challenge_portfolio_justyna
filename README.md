@@ -42,21 +42,21 @@ Interfej aplikacji mi się nie podoba. Wygląda jak schemat, a nie gotowa aplika
 
 Nie miałam problemu ze znalezieniem formularza dodawania nowego zawodnika piłki nożnej do systemu, ale moim zdaniem znajduje się on w dziwnym miejscu. Ponadto powinno się to właśnie nazywać formularz, a nie linki pomocnicze.
 
-W filtrach powinniśmy również mieć możliwość przefiltrowania wieku, pozycji, klubu, ilości meczów itp. a nie mieć tylko możliwość dodawania tych rekordów.
+W filtrach powinniśmy również mieć możliwość przefiltrowania pozycji z już wpisanych.
 
 
 * Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)
 
   * Brak identyfikacji ID dla poszczególnych zawodników
   * Możliwość wpisania imienia i nazwiska składającego się ze znaków, cyfr, zbyt krótkich lub "hasłowych"
-  * Brak wartości brzegowych wiekowych zawodników, czyli możliwość wpisania wieku na minusie, a także zbyt dużych (najstarszy piłkarz ma 55 lat, a najmłodszy 16 lat)
-  * Brak wartości brzegowych dla wagi i wzrostu jest możliwość wpisania wpisania wieku na minusie, oraz liter
+  * Brak wartości brzegowych wieku zawodników, czyli możliwość wpisania wieku na minusie, a także zbyt dużych (w rzeczywistosci najstarszy piłkarz ma 55 lat, a najmłodszy 16 lat)
+  * Brak wartości brzegowych dla wagi i wzrostu jest możliwość wpisania wpisania na minusie, oraz liter
   * Możliwość dodania nieistniejących pozycji zawodników
   * Możliwość dodania nieistniejących klubów
   * Brak ograniczenia w ilości znaków w poszczególnych kolumnach
   * W filtrach w języku polskim mamy język angielski pomieszany z językiem polskim
   * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ zmienia się pozycja kolumn
-  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ okno ma możliwość rozciąga się w przeglądarce mozilla w chromie już nie
+  * Przy przechodzeniu przez poszczególne strony w zakładce _Gracze_ okno ma możliwość rozciąga się (brak zwijania długich nazw)
   * Możliwość dodawania tych samych zawodników
   * Przy eksporcie do .csv wyskakują błedy w dwóch ostatnich kolumnach
   * Przy eksporcie do .csv w kolumnie wiek wpisane są daty, a w aplikacji tylko wiek
@@ -68,4 +68,4 @@ W filtrach powinniśmy również mieć możliwość przefiltrowania wieku, pozyc
   * Bug kod błędu 404 (strona łączy się z serwerem, ale nie może znaleść właściwego pliku odpowiadającego za działanie danej podstrony) https://scouts-test.futbolkolektyw.pl/pl/favicon.ico
   * Bug - Params `start` and `limit` are deprecated. Use `_start` and `_limit`, który nie wiem co oznacza dotyczy rozszerzenia js i znajduje się w zakładce players
   * Brak możliwości dodawania graczy z innych krajów
-  * Brak zabezpieczeń przed zmianami - zmian może dokonać każdy użytkownik, nie tylko administrator lub zawodnik
+  * Brak zabezpieczeń przed zmianami - zmian może dokonać każdy użytkownik, nie tylko administrator lub dany zawodnik
