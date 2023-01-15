@@ -27,7 +27,11 @@ Aplikacja jest przeznaczona dla "łówców talentów" skautów piłki nożnej. S
 
 * Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
 
+Możliwość dodawania zawoników. Wyśeitlania listy zawodników, oraz edycji dodanych już piłkaży. Mamy też możliwość filtrowania.
 
+Nie dokońca są te fuikcjonalnośći intuicyjne. Nie ma możliwości wyboru ile zaowdników chcemy mieć na jendej stronie. Nie ma możliwości filtrowania przez dominującą nogę, osiągnięcia oraz alternatywną pozycję zawodnika.
+
+Nie rozumiem pól Łączy nas piłka i 90 minut.
 
 
 * Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
@@ -56,8 +60,8 @@ W filtrach powinniśmy również mieć możliwość przefiltrowania wieku, pozyc
   * Przy eksporcie do .csv w kolumnie wiek wpisane są daty, a w aplikacji tylko wiek
   * Nie można zaznaczyć więcej zawodników niż znajduje się na jednej stronie
   * Przy wyborze drukowania nie zawsze zawsze pojawiają się linie odzielające użytkowników
-  * Przy dodawaniu nowego gracza pmioimo, iż z * (czyli wymagane jest zanaczone imię i nazwisko) to przy zapisywaniu na czerwono pojawia się tylko imię i nzowu w języku angielskim Required w polskiej wersji Podświetlone tylko imię, a powinno rónież być nazwisko i błęde wyświetlanie komunikatów. Mamy kod 400 (POST) dodania 
+  * Możliwość wpisania w pole profil facebook linku nie z tej apliacji
+  * Przy dodawaniu nowego gracza pmioimo, iż z * (czyli wymagane jest zanaczone imię,nazwisko, data urodzenia oraz główna pozycja) to przy zapisywaniu na czerwono pojawia się tylko imię i nzowu w języku angielskim Required w polskiej wersji Podświetlone tylko imię, a powinno rónież być nazwisko i błęde wyświetlanie komunikatów. Mamy kod 400 (POST) dodania 
   * Kolejnym błędem tutaj jest to, że  wyskakuje nam w http, że musimy dodać email ale nie podświtla się to na czerwono.
   * Bug kod błędu 404 (strona łączy się z serwerem, ale nie może znaleść właściwego pliku odpowiadającego za działanie danej podstrony) https://scouts-test.futbolkolektyw.pl/pl/favicon.ico
-  * 
   * Bug - Params `start` and `limit` are deprecated. Use `_start` and `_limit`, który nie wiem co oznacza dotyczy rozszerzenia js i znajduje się w zakładce players
