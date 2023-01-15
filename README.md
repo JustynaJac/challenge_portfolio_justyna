@@ -56,4 +56,8 @@ W filtrach powinniśmy również mieć możliwość przefiltrowania wieku, pozyc
   * Przy eksporcie do .csv w kolumnie wiek wpisane są daty, a w aplikacji tylko wiek
   * Nie można zaznaczyć więcej zawodników niż znajduje się na jednej stronie
   * Przy wyborze drukowania nie zawsze zawsze pojawiają się linie odzielające użytkowników
-  * Kod błędu 404 (strona łączy się z serwerem, ale nie może znaleść właściwego pliku odpowiadającego za działanie danej podstrony) https://scouts-test.futbolkolektyw.pl/pl/favicon.ico
+  * Przy dodawaniu nowego gracza pmioimo, iż z * (czyli wymagane jest zanaczone imię i nazwisko) to przy zapisywaniu na czerwono pojawia się tylko imię i nzowu w języku angielskim Required w polskiej wersji Podświetlone tylko imię, a powinno rónież być nazwisko i błęde wyświetlanie komunikatów. Mamy kod 400 (POST) dodania 
+  * Kolejnym błędem tutaj jest to, że  wyskakuje nam w http, że musimy dodać email ale nie podświtla się to na czerwono.
+  * Bug kod błędu 404 (strona łączy się z serwerem, ale nie może znaleść właściwego pliku odpowiadającego za działanie danej podstrony) https://scouts-test.futbolkolektyw.pl/pl/favicon.ico
+  * 
+  * Bug - Params `start` and `limit` are deprecated. Use `_start` and `_limit`, który nie wiem co oznacza dotyczy rozszerzenia js i znajduje się w zakładce players
