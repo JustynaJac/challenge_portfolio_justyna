@@ -69,6 +69,6 @@ W filtrach brakuje pół wyborów w skończonych kategoriach np. pozycje zawonik
   * Bug - Params `start` and `limit` are deprecated. Use `_start` and `_limit`, który nie wiem co oznacza dotyczy rozszerzenia js i znajduje się w zakładce players
   * Brak możliwości dodawania graczy z innych krajów
   * Brak zabezpieczeń przed zmianami - zmian może dokonać każdy użytkownik, nie tylko administrator lub dany zawodnik
-  * Brak przycisku na banerze pzrenoszącego na główną stronę - jest to bardzo niewygodne zwłaszcza przy obsłudze na aplikacjach mobilnych
+  * Brak przycisku na banerze przenoszącego na główną stronę - jest to bardzo niewygodne zwłaszcza przy obsłudze na aplikacjach mobilnych
   * Na aplikacjach mobilnych, żeby zmienić zakładkę musimy wciskać hamburger menu, co jest czasochłonne
   * Niewygodne przeglądanie zakładki _Gracze_ na apliacji mobilnej
