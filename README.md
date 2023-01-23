@@ -78,7 +78,9 @@ W filtrach brakuje pół wyborów w skończonych kategoriach np. pozycje zawonik
 
 ## **Subtask 1** 
 
-[Google exel file](http://[github.com](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)) 
+http://github.com – automatic! [GitHub](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
+
+[Google exel file](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
 
 ## **Subtask 3** 
 
