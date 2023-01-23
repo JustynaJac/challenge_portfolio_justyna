@@ -76,6 +76,10 @@ W filtrach brakuje pół wyborów w skończonych kategoriach np. pozycje zawonik
 
 # **Task 2** 
 
+## **Subtask 1** 
+
+[Google exel file](http://[github.com](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)) 
+
 ## **Subtask 3** 
 
 *Po co piszemy test case’y?*
