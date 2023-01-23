@@ -72,3 +72,12 @@ W filtrach brakuje pół wyborów w skończonych kategoriach np. pozycje zawonik
   * Brak przycisku na banerze przenoszącego na główną stronę - jest to bardzo niewygodne zwłaszcza przy obsłudze na aplikacjach mobilnych
   * Na aplikacjach mobilnych, żeby zmienić zakładkę musimy wciskać hamburger menu, co jest czasochłonne
   * Niewygodne przeglądanie zakładki _Gracze_ na apliacji mobilnej
+
+
+# **Task 2** 
+
+## **Subtask 3** 
+
+*Po co piszemy test case’y?*
+
+Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wiedzy na temat testowanej aplikacji/systemu. Przypadki testowe pomagają w trakcie testowania poprawności oprogramowania, ponieważ porządkują pracę. Dzięki czemu wiadomo, ile funkcjonalności jeszcze zostało nam do przetestowania. Dobry przypadek testowy powinien odpowiadać na pytanie: __„Co tak naprawdę chcę przetestować?”__ 
