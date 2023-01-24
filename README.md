@@ -78,12 +78,20 @@ W filtrach brakuje pół wyborów w skończonych kategoriach np. pozycje zawonik
 
 ## **Subtask 1** 
 
-http://github.com – automatic! [GitHub](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
+[Google exel file with Subtask 1](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
 
-[Google exel file](https://docs.google.com/spreadsheets/d/1GCCXNPcKsoPUBCMYPSMUOpLdvg_PyNnJ/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
+## **Subtask 2** 
+
+[Google exel file with Subtask 2](https://docs.google.com/spreadsheets/d/1AAmcIa7zSUd9py2PaPOrjbgemBezKZJ3/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
+
 
 ## **Subtask 3** 
 
 *Po co piszemy test case’y?*
 
-Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wiedzy na temat testowanej aplikacji/systemu. Przypadki testowe pomagają w trakcie testowania poprawności oprogramowania, ponieważ porządkują pracę. Dzięki czemu wiadomo, ile funkcjonalności jeszcze zostało nam do przetestowania. Dobry przypadek testowy powinien odpowiadać na pytanie: __„Co tak naprawdę chcę przetestować?”__ 
+Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wiedzy na temat testowanej aplikacji/systemu. Przypadki testowe pomagają w trakcie testowania poprawności oprogramowania, ponieważ porządkują pracę. Dzięki czemu wiadomo, ile funkcjonalności jeszcze zostało nam do przetestowania. Dobry przypadek testowy powinien odpowiadać na pytanie: __„Co tak naprawdę chcę przetestować?”__ Ponadto po zakończeniu testów, na podstawie przypadków testowych tester może tworzyć raporty z wykonanych testów na danej aplikacji/systemie.
+
+## **Subtask 4** 
+
+[Google exel file with Subtask 4](https://docs.google.com/spreadsheets/d/1y0K49Haq27BUf7IkJgaE6jj7aj6kVhOM/edit?usp=share_link&ouid=103264474520704327668&rtpof=true&sd=true)
+
