@@ -99,7 +99,7 @@ Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wied
 
 ## **Subtask 1** 
 
-[Google exel file with Subtask 1  - Bug file](https://drive.google.com/drive/folders/1JixfAMyjrwzN8rfYeg_LuM0dOhTPa_kA?usp=share_link)
+[Subtask 1  - Bug files](https://drive.google.com/drive/folders/1JixfAMyjrwzN8rfYeg_LuM0dOhTPa_kA?usp=share_link)
 
 ## **Subtask 2** 
 
@@ -108,4 +108,4 @@ Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wied
 
 ## **Subtask 3** 
 
-[Subtask 3 -Bug Tracker](https://docs.google.com/spreadsheets/d/15diIoCJH5uVvKA3STjQALmZZoe-7LPNg1GsM2xaEkdw/edit?usp=share_link)
+[Google exel file with Subtask 3 -Bug Tracker](https://docs.google.com/spreadsheets/d/15diIoCJH5uVvKA3STjQALmZZoe-7LPNg1GsM2xaEkdw/edit?usp=share_link)
