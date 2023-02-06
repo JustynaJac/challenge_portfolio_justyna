@@ -109,3 +109,36 @@ Warto pisać przypadki testowe, ponieważ jest to dobry sposób na spisanie wied
 ## **Subtask 3** 
 
 [Google exel file with Subtask 3 -Bug Tracker](https://docs.google.com/spreadsheets/d/15diIoCJH5uVvKA3STjQALmZZoe-7LPNg1GsM2xaEkdw/edit?usp=share_link)
+
+# **Task 4** 
+
+## **Subtask 2** 
+
+[Google exel file with Subtask 2  - Bug reports for olx mobile app](https://docs.google.com/spreadsheets/d/1F3OltshEVVxs_bxf95M7vX97dPAOfj84/edit#gid=418525387)
+
+## **Subtask 3** 
+
+*Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?* 
+
+Aplikacja olx służy do sprzedawania wystawianych lub kupowania wystawionych przedmiotów i usług. Ogłoszenia zawierają się w różnych kategoriach takich jak: Moda, Zwierzęta, Dla Dzieci, Sport i Hobby, Muzyka i Edukacja, Usługi i Firmy. 
+
+*Kto ma być użytkownikiem końcowym aplikacji?* 
+
+Użytkownikiem końcowym są osoby wyszukujące i nabywają dany produkt/usługę.
+
+*Czy według Ciebie aplikacja jest user friendly? (Przyjazna dla użytkownika- np. wchodzisz do aplikacji i szybko łapiesz do czego służą przyciski. Poczytaj na ten temat w internecie- co to znaczy, że aplikacja jest przyjazna dla użytkownika)* 
+
+Tak, dla mnie apliacja Olx jest user friendly :ok_hand: Olx ma dobrze zbudowaną nawigację, posiada przyciski wykonywania akcji (CTA) oraz inteligentną wyszukiwarkę. 
+
+*Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? (Żeby nie było: nie jest to aplikacja przy której pracuję, takie pytania pojawiają się na rozmowach rekrutacyjnych dlatego dobrze jest to przećwiczyć :D )* 
+
+Mam pomysł na nową fukcjonalność. :raising_hand_woman: 	
+Po wybraniu Kategorii - przycisk sprawdź Lolanie. Po czym  wyświetlanie się mapy gdzie można odebrać towar lub gdzie można nabyć usługę, ułatwiłoby to poszukiwanie usług w pobliżu. :house_with_garden:
+
+
+*Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+
+Testowanie funkcjonalności i wydajności aplikacji natywnych jest bardziej skomplikowane, ponieważ muszą one być testowane na różnych platformach i urządzeniach, podczas gdy aplikacje internetowe są testowane tylko na różnych przeglądarkach i konfiguracjach.
+Ponad to testowanie interfejsu użytkownika aplikacji natywnych jest bardziej złożone, ponieważ interfejs użytkownika jest dostosowywany do platform (zwykle Google Play oraz App Store) , podczas gdy aplikacje internetowe mają taki sam interfejs na wszystkich urządzeniach. W przypadku aplikacji natywnej doodatkowo wymagana jest instalacja.
+
+
