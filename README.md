@@ -141,5 +141,11 @@ Po wybraniu Kategorii - przycisk sprawdź Lolanie. Po czym  wyświetlanie się m
 Testowanie funkcjonalności i wydajności aplikacji natywnych jest bardziej skomplikowane, ponieważ muszą one być testowane na różnych platformach i urządzeniach, podczas gdy aplikacje internetowe są testowane tylko na różnych przeglądarkach i konfiguracjach.
 Ponad to testowanie interfejsu użytkownika aplikacji natywnych jest bardziej złożone, ponieważ interfejs użytkownika jest dostosowywany do platform (zwykle Google Play oraz App Store) , podczas gdy aplikacje internetowe mają taki sam interfejs na wszystkich urządzeniach. W przypadku aplikacji natywnej doodatkowo wymagana jest instalacja.
 
+# **Task 5** 
 
+## **Subtask 1** 
 ![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161517.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161541.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161600.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161612.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161625.png)
