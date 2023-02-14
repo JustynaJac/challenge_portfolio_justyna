@@ -142,3 +142,4 @@ Testowanie funkcjonalności i wydajności aplikacji natywnych jest bardziej skom
 Ponad to testowanie interfejsu użytkownika aplikacji natywnych jest bardziej złożone, ponieważ interfejs użytkownika jest dostosowywany do platform (zwykle Google Play oraz App Store) , podczas gdy aplikacje internetowe mają taki sam interfejs na wszystkich urządzeniach. W przypadku aplikacji natywnej doodatkowo wymagana jest instalacja.
 
 
+![](https://drive.google.com/file/d/1ksVhfbpVGYQqK0to5FqQ2D6Bm_Z7p_bi/view?usp=share_link)
