@@ -227,6 +227,14 @@ SELECT name, email, movie_id FROM sale INNER JOIN customers ON sale.customer_id 
 
 ![]()
 
-**13. P Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
+**13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
 
 UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja'
+
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+
+![]()
+
+SELECT name, surname, title FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id INNER JOIN movies ON sale.movie_id = movies.movie_id ORDER BY sale_date
+
+![]()
