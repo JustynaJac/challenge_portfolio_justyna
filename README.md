@@ -211,3 +211,22 @@ SELECT * FROM movies WHERE price>9 and movie_id >2 AND movie_id <8
 
 ![](https://github.com/JustynaJac/challenge_portfolio_justyna/blob/screens-2/Screenshot%202023-02-13%20at%2022-24-49%20localhost%20_%20127.0.0.1%20_%20kurs_tester_manualny%20_%20movies%20phpMyAdmin%205.2.0.png)
 
+# **Task 6** 
+
+## **Subtask 1**
+
+**11.Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈**
+
+UPDATE`customers` SET surname = 'Miler' WHERE name ='Ania'
+
+![]()
+
+**12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
+
+SELECT name, email, movie_id FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id WHERE movie_id = 4
+
+![]()
+
+**13. P Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com**
+
+UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja'
