@@ -223,7 +223,7 @@ UPDATE`customers` SET surname = 'Miler' WHERE name ='Ania'
 
 **12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.**
 
-SELECT name, email, movie_id FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id WHERE movie_id = 4
+SELECT name, email, movie_id FROM sale AS s INNER JOIN customers AS c ON s.customer_id = c.customer_id WHERE movie_id = 4
 
 ![]()
 
@@ -231,10 +231,49 @@ SELECT name, email, movie_id FROM sale INNER JOIN customers ON sale.customer_id 
 
 UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja'
 
+![]()
+
 **14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
+
+SELECT name, surname, title FROM sale AS s INNER JOIN customers AS c ON s.customer_id = c.customer_id INNER JOIN movies AS m ON s.movie_id = m.movie_id ORDER BY sale_date
 
 ![]()
 
-SELECT name, surname, title FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id INNER JOIN movies ON sale.movie_id = movies.movie_id ORDER BY sale_date
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
+
+ALTER TABLE customers ADD pseudonim VARCHAR(3);
+UPDATE customers SET pseudonim = CONCAT(LEFT(name, 2), RIGHT(surname, 1))
+
+![]()
+
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
+
+SELECT DISTINCT title FROM sale JOIN movies ON sale.movie_id = movies.movie_id
+
+![]()
+
+**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
+
+SELECT name FROM actors 
+UNION 
+SELECT name FROM customers ORDER BY name ASC
+
+![]()
+
+**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
+
+UPDATE movies SET price = price + 2.5 WHERE year_of_production>2000
+
+![]()
+
+**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
+
+SELECT name, surname, title FROM actors JOIN cast ON actors.actor_id = cast.actor_id JOIN movies ON cast.movie_id = movies.movie_id WHERE actors.actor_id = 4
+
+![]()
+
+**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonim) VALUES (7, 'Hania', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 
 ![]()
