@@ -144,11 +144,12 @@ Ponad to testowanie interfejsu użytkownika aplikacji natywnych jest bardziej z�
 # **Task 5** 
 
 ## **Subtask 1** 
-![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161517.png)
-![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161541.png)
-![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161600.png)
-![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161612.png)
-![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-14%20161625.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20122914.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20122958.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20123013.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20123031.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20123043.png)
+![](https://raw.githubusercontent.com/JustynaJac/challenge_portfolio_justyna/screens-1/Zrzut%20ekranu%202023-02-21%20123100.png)
 
 ## **Subtask 3** 
 :white_square_button: **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
